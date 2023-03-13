@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB1-html</title>
+</head>
+<body>
+    <meta charset="utf-8">
+
+    <h1><font color="red">WEB</font></h1>
+   <link rel="stylesheet" href="style.css">
+    
+    <!--
+    <ol>
+        <li><a href="index1.html"><font color="red">htm</font>l</a> <br></li>
+        <li><a href="index2.html"><font color="red">css</font></a> <br></li>
+        <li><a href="index3.html"><font color="red">Jav</font>ascript</a><br></li>
+    </ol>
+    -->
+    
+    <style>
+        body{
+            margin:0;
+        }
+        #grid{
+
+            display: grid;
+            grid-template-columns: 150px 1fr;
+
+        }
+        
+        a {
+            color:black;
+            text-decoration: none;
+        }
+        .saw{
+            color:gray;
+        }
+        #active{
+            color:red;
+        }
+        h1{
+            font-size: 45px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin:0;
+            padding: 20px;
+        
+        }
+        ol{
+            border-right: 1px solid gray;
+            width:100px;
+            margin:0;
+            padding:20px;
+        }
+
+        @media(max-width:450px){
+            #grid{
+                display: block;
+            }
+            ol{
+                border-right:none;
+
+            }
+            h1{
+
+                border-bottom:none;
+            }
+
+             
+        }
+
+    </style>
+    <ol>
+        <li><a href="index1.html" class="saw">html</a> <br></li>
+        <li><a href="index2.html" style="color:red; text-decoration:underline" id="active">css</a> <br></li>
+        <li><a href="index3.html">Javascript</a><br></li>
+    </ol>
+    <h1>html</h1>
+    <a href="https://www.youtube.com/" target="_blank" title="youtube">youtube</a>
+    <strong><u>h=headings like head,</p><p
+        style="margin-top:30px;"> u=underline, strong</u></strong>
+    <img src="coding.jpg" width="100%">
+
+    ol = ordered list
+    ul = unordered 
+    hawk = chatting service
+    disqus = comment service 
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2HnpC184rq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+
+    </p> <input type="checkbox">
+    <input type="checkbox">
+    <table>
+        <tr>
+            <td>I</td>
+            <td>90%</td>
+        </tr>
+        <tr>
+            <td>N</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>T</td>
+            <td>55%</td>
+        </tr>
+        <tr>
+            <td>P</td>
+            <td>80%</td>
+        </tr>
+    </table>
+</body> 
+</html>
